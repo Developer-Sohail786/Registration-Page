@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-300 text-white font-sans;
+  }
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+body {
+  @apply font-poppins;
+}
+.red{
+  color: red;
+  font-size: 14px;
+}
